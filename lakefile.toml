@@ -1,0 +1,14 @@
+name = "risk-gates-lean"
+version = "0.1.0"
+defaultTargets = ["RiskGates", "Harness", "riskcheck"]
+
+[[lean_lib]]
+name = "RiskGates"
+
+[[lean_lib]]
+name = "Harness"
+srcDir = "autoformalize"
+
+[[lean_exe]]
+name = "riskcheck"
+root = "Main"

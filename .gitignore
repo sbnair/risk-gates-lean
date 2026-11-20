@@ -1,0 +1,4 @@
+.lake/
+autoformalize/llm_runs/
+autoformalize/results.json
+__pycache__/
